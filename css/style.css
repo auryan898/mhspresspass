@@ -1,0 +1,75 @@
+body{
+  height: 100%;
+  font-family: "Arial Black";
+  text-align: center;
+  color: white;
+}
+#new{
+  color: black;
+}
+#main {
+  width: 70%;
+}
+.outer-box {
+  border: 3px solid grey;
+  background-color: #000;
+  margin:0 10px 20px 10px;
+  width: 300px;
+  height: 500px;
+  float:left;
+  position: relative;
+  background-image:url("../static/favicon.png");
+  color: white;
+}
+h1 {
+  font-family: Impact,Haettenschweiler,Franklin Gothic Bold,Charcoal;
+  font-size:40px;
+  margin: 5% 0 5%;
+}
+#inner-box{
+  border: 3px solid grey;
+  background-color: #FFF;
+  width: 200px;
+  height: 300px;
+  float:none;
+  margin:0 auto 0 auto;
+  color: black;
+  
+}
+.crop img {
+  
+  /*margin: 0px 0px 0px -60px;*/
+}
+.crop {
+  height:180px;
+  width:180px;
+  overflow:hidden;
+  border: 1px solid black;
+  margin: 10px auto 10px auto;
+  float: none;
+}
+h3{
+  margin-top:10px;
+}
+#outer-box-back {
+  margin-left:  10px;
+  margin-right: 10px;
+}
+#outer-box-back #inner-box {
+  height:344px;
+  padding-left:5px;
+  text-align: left;
+  display: block;
+}
+#outer-box-back #inner-box p {
+  font-size:10px;
+  margin-top: 5px;
+}
+#outer-box-back #inner-box hr{
+  margin-top: 40px;
+  margin-bottom:0px;
+}
+#outer-box-back #inner-box h5{
+  margin-top:10px;
+  margin-bottom:10px;
+}

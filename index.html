@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Functional EITR Press Pass Maker</title>
+  
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  
+<div class="container-fluid outer-box" id="outer-box">
+  <div class="row">
+    <h1>PRESS</h1>
+    <div class="container-fluid" id="inner-box">
+      <div class="crop">
+        <img draggable="true" id="profilePic" src="./static/Josh-Kendall-pic.jpg">  
+      </div>
+      <h3 id="jobTitle">Official Reporter</h3>
+      <h3 id="name">Mr. Kendall</h3>
+      
+    </div>
+    <h3>Milton High Newspaper</h3>
+    <h2>Elephant in the Room</h2>
+  </div>
+</div>
+
+<div class="container-fluid outer-box" id="outer-box-back">
+  <div class="row">
+    <h1>PRESS</h1>
+    <div class="container-fluid" id="inner-box">
+      <p>The individual whose picture appears on the opposite side is a member of The Elephant in the Room, the Milton High School's school newspaper organization. The holder of this card is authorized to investigate and report on newsworthy event incidents and matters only. Should it be necessary, contact elephantintheroom2017@gmail.com</p>
+      <hr>
+      <p style="font-size:7px; text-align:center; margin: 0 0 0 0; ">Advisor</p>
+      <h5>FIRST AMENDMENT RIGHT</h5>
+      <p>"Congress shall make no law respecting an establishment of religion, or prohibiting the free exercise thereof; or abridging the freedom of speech, or of the press..."</p>
+      
+    </div>
+    <h1>ACCESS</h1>
+  </div>
+</div>
+
+<div class="container-fluid" id="new">
+  <div class="row">
+    <div class="col-sm-4">
+      <p>Name: </p>
+    </div>
+    <div class="col-sm-8">
+      <input type="text" id="textInput" value="Mr. Kendall">
+    </div>
+    <div class="col-sm-4">
+      <p>Job Title: </p>
+    </div>
+    <div class="col-sm-8">
+      <input type="text" id="jobInput" value="Official Reporter">
+    </div>
+    <div class="col-sm-4">
+      <p>Square Picture: </p>
+    </div>
+    <div class="col-sm-8">
+      <input type="file" id="picInput">
+      <div>
+        <p>width</p>
+        <input id="widthRange" type="range" min="0" max="1500" step="10" defaultValue="0">
+      </div>
+      <div>
+        <p>rotate 180</p>
+        <input id="rotationRange0" type="range" min="0" max="180" step="5" defaultValue="0">
+      </div>
+      <div>
+        <p>rotate 90</p>
+        <input id="rotationRange1" type="range" min="0" max="90" step="5" defaultValue="0">
+      </div>
+      <button id="centerPic">Center Pic</button>
+    </div>
+  </div>
+</div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.0/jquery-ui.min.js'></script>
+
+    <script src="js/index.js"></script>
+
+</body>
+</html>
